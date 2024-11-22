@@ -1,5 +1,5 @@
 package trimmedMean
 
-func trimMeanInt(val int) int {
+func TrimMeanInt(val int) int {
 	return val
 }
