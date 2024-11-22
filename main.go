@@ -25,7 +25,7 @@ func TrimMean[T Number](vals []T, trim int) float64 {
 	sort.Float64s(floatVals)
 
 	//trim the slice
-	trimVals := vals[trim : len(vals)-trim]
+	trimVals := floatVals[trim : len(vals)-trim]
 
 	//calculate the sum of the trimmed slice
 	trimmedSum := 0.0
